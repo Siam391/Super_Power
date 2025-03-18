@@ -3,7 +3,7 @@ from concurrent.futures import ThreadPoolExecutor
 import time
 
 # List of API modules (add your API module names without ".py")
-api_modules = [f"api_{i}" for i in range(1, 31)]  # Dynamically generate API names (api_1 to api_30)
+api_modules = [f"api_{i}" for i in range(1, 7)]  # Dynamically generate API names (api_1 to api_30)
 
 def run_api(api_module_name, mobile, threads):
     """
